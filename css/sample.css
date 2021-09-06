@@ -43,10 +43,16 @@ width:200px;
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 .about {
-/* About Achieve部分の実装 */
+  font-size: 1.5rem;
 }
+.about p {
+  font-size: 0.8rem;
+}
+
+/* About Achieve部分の実装 */
+
 /* ここから */
-.function {
+.function {background-color:#D3D3D3;
 }
 .function-images {
   display: table;
@@ -58,11 +64,12 @@ left:330px;
 padding:2rem;
 }
 /* ここまでがfunction部分の実装 */
-footer {background-color:#191970;
-  height:100px;
+footer {background-color:#283A4B;
+  height: 70px;
   display: table;
   width:100%;
   color:#ffffff;
+  font-size: 0.8rem;
 /* footer部分の実装 */
 }
 .footer p {
